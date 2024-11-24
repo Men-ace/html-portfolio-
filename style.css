@@ -163,3 +163,23 @@ margin: -2rem;
    
 
 }
+
+/* summary section */
+.summary-container{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 16px;
+    justify-content: space-around;
+}
+
+.summary-container i{
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.summary-container p{
+    margin: 0;
+    font-weight: bold;
+    color: var(--primary-color);
+}
