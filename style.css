@@ -120,3 +120,46 @@ letter-spacing: 3px;
     display: none; */
 /* } */
 }
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.hero-section{
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    max-height: 60vh ;
+    margin: 4rem 0;
+}
+
+.intro-text{
+    color: white;
+    padding: 8px;
+}
+
+.download-btn{
+    background-color: black;
+    color: white ;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.download-btn:hover{
+cursor: pointer;
+}
+
+.profile-image{
+margin: -2rem;
+}
+
+.profile-image img{
+
+    height: 100%;
+    width: 100%;
+   
+
+}
