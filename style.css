@@ -21,6 +21,7 @@ body{
     align-items: center;
     gap: 12px;
     flex-wrap: wrap;
+    margin-top: 20px;
     
 }
 
@@ -171,6 +172,7 @@ margin: -2rem;
     border-radius: 24px;
     padding: 16px;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
 .summary-container i{
@@ -189,6 +191,7 @@ margin: -2rem;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    margin-top: 20px;
 }
 
 .skills-container :nth-child(1) i {
@@ -209,4 +212,62 @@ margin: -2rem;
 
 .skills-container :nth-child(5) i {
     color:violet;
+}
+
+/* my recent work section */
+.project-card{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+  
+}
+
+.card-image{
+    width: 100%;
+    height: 50%;
+}
+
+.card-image img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-icons{
+    text-align: center;
+    margin-top: 12px;
+    
+}
+
+.card-icons a {
+    color: var(--text-color);
+}
+
+.card-text{
+    padding: 12px;
+}
+
+.card-text h4,p{
+    margin: 0;
+}
+
+.about-me-lower-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.about-me  div h1{
+ align-content: center;
+ justify-content: center;  
+ text-align: center;
+ background-color: lightgoldenrodyellow;
+ margin: 0;
+ margin-top: 20px;
+
 }
