@@ -183,3 +183,30 @@ margin: -2rem;
     font-weight: bold;
     color: var(--primary-color);
 }
+
+
+.skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.skills-container :nth-child(1) i {
+    color:blue;
+}
+
+.skills-container :nth-child(2) i {
+    color:red;
+}
+
+.skills-container :nth-child(3) i {
+    color:green;
+}
+
+.skills-container :nth-child(4) i {
+    color:blue;
+}
+
+.skills-container :nth-child(5) i {
+    color:violet;
+}
