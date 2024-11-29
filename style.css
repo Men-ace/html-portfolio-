@@ -163,3 +163,50 @@ margin: -2rem;
    
 
 }
+
+/* summary section */
+.summary-container{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 16px;
+    justify-content: space-around;
+}
+
+.summary-container i{
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.summary-container p{
+    margin: 0;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+
+.skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.skills-container :nth-child(1) i {
+    color:blue;
+}
+
+.skills-container :nth-child(2) i {
+    color:red;
+}
+
+.skills-container :nth-child(3) i {
+    color:green;
+}
+
+.skills-container :nth-child(4) i {
+    color:blue;
+}
+
+.skills-container :nth-child(5) i {
+    color:violet;
+}
