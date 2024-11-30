@@ -6,6 +6,10 @@
     --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.625);
     --primary-color: orange;
 
+    /* dark-mode-colors */
+    --dark-bg-color:black;
+    --dark-text-color:white;
+    --dark-border-color:white;
 }
 
 
@@ -25,11 +29,17 @@ body{
     
 }
 
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 .navbar-container{
     justify-content: space-between;
     padding: 16px 32px;
     background-color:var(--bg-color) ;
     box-shadow: var(--box-shadow);
+
 }
 
 .logo-name{
@@ -287,10 +297,18 @@ margin: -2rem;
 
 .footer-container {
     justify-content: flex-start;
-    background-color :lightpink;
-    text-align: center;
+    background-color :black;
     justify-content: center;
+    color: white;
 }
+.footer-container h6{
+    margin-left: 40px;
+}
+
+.footer-container a{
+    color: white;
+}
+
 
 .footer-container ul{
     list-style: none;
@@ -299,12 +317,38 @@ margin: -2rem;
 
 .go-to-top{
     height:50px;
-    width: 50;
-    border-radius: 70%;
+    width: 50px;
+    border-radius:50%;
     background-color: var(--primary-color);
     text-align: center;
     position: fixed;
     bottom: 10px;
     right: 10px;
     line-height: 50px;
+}
+
+/* dark mode */
+#dark-mode{
+    display: none;
+}
+
+.dark-mode-toggle{
+    position: fixed;
+    top: 7rem;
+    left: 8px;
+    cursor: pointer;
+}
+.dark-mode-toggle i:hover{
+   scale: 2;
+}
+
+.wrapper-container{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+#dark-mode:checked ~ .wrapper-container{
+    --bg-color: var(--dark-bg-color);
+    --text-color:var(--dark-text-color);
+    --border-color: var(--border-color);
 }
