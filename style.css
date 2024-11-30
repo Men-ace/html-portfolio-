@@ -284,3 +284,14 @@ margin: -2rem;
 .download-btn i{
     color: var(--primary-color);
 }
+
+.footer-container {
+    justify-content: flex-start;
+    background-color: var(--primary-color);
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-container ul{
+    list-style: none;
+}
