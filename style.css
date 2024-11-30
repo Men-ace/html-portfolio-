@@ -271,3 +271,16 @@ margin: -2rem;
  margin-top: 20px;
 
 }
+
+.get-in-touch-container{
+    justify-content: space-evenly;
+}
+
+.mail-container{
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.download-btn i{
+    color: var(--primary-color);
+}
