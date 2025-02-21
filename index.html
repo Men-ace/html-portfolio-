@@ -1,363 +1,310 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- fontawesome  -->
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- fontawesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-</head>
-<body>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap"
+      rel="stylesheet"
+    />
 
-     <!-- Dark-mode toggle-->
-      <label class="dark-mode-toggle" for="dark-mode">
-        <i class="fa-solid fa-circle-half-stroke"></i>
-      </label>
-      <input type="checkbox" id="dark-mode">
-      <div class="wrapper-container">
-    <header>
-        <!-- Navbar -->
-         <nav>
-            <div class=" flex-container navbar-container">
+    <link rel="stylesheet" href="style.css" />
 
-                <div class="flex-container">
-                    <div class="logo-name">Shailesh Gharti</div>
-                    <div class="line"> |</div>
-                    <div class="title">  Soft. engineer</div>
-                </div>
+    <title>Shailesh's official website</title>
+  </head>
+  <body>
+    <!-- dar mode toggler -->
 
-                <ul class="nav-items">
-                    <li> <a href="#home">home</a></li>
-                    <li> <a href="#about us">About us</a></li>
-                    <li> <a href="#contact">Contact</a></li>
-                    <li> <a href="skills">Skills</a></li>
-                    <li> <a href="projects">Projects</a></li>
-                </ul>
+    <input type="checkbox" id="darkMode" />
+    <div class="wrapper">
+      <label for="darkMode">
+        <i class="fa-solid fa-circle-half-stroke"></i
+      ></label>
+      <!-- navbar -->
+      <header>
+        <div class="header container flex">
+          <div class="logo flex">
+            <div>Shailesh</div>
+            <div class="line">Soft. Engineer</div>
+          </div>
+          <label for="hamburgerMenu">
+            <i class="fa-solid fa-bars"></i>
+          </label>
 
-                <!-- Ham burger menu on mobile  -->
-                <label for="hamburger-menu">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
-
-
-                <input type="checkbox" id="hamburger-menu"/>
-
-                <!-- side-menu -->
-                 <div class="side-menu">
-                    <ul class="side-menu-items">
-                        <li> <a href="#home">home</a></li>
-                        <li> <a href="#about us">About us</a></li>
-                        <li> <a href="#contact">Contact</a></li>
-                        <li> <a href="skills">Skills</a></li>
-                        <li> <a href="projects">Projects</a></li>
-                    </ul>
-                 </div>
-            </div>  
-         </nav>
-    </header>
-
-    <!-- HERO SECTION -->
-    <section id="home">
-        <div class="grid-container hero-section">
-            <div class="intro-text">
-                <p> Hi! i am <b>Shailesh gharti</b></p>
-                <p>Software Enginner</p>
-                <br/>
-                <p>I love coding!</p>
-                <br/>
-                <a href="assests/myresume.pdf" download><button class="download-btn">Download CV  <i class="fa-solid fa-download"></i></button></a>
-            </div>
-            <div class="profile-image"><img src="assests/profileimg.png" alt=""></div>
-
+          <input type="checkbox" id="hamburgerMenu" />
+          <div class="menu">
+            <ul class="flex navigation">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
-    </section>
-
-    <section>
-        <div class="flex-container summary-container">
-            <div class="flex-container">
-                <i class="fa-solid fa-award"></i>
-                 <div>
-                    <span>IT</span>
-                    <p>Graduate</p>
-                 </div>       
-            </div>
-
-            <div class="vertical-line">|
-
-            </div>
-            <div class="flex-container">
-                <i class="fa-solid fa-laptop"></i>
-                 <div>
-                    <span>5+</span>
-                    <p>projects</p>
-                 </div>       
-            </div>
-
-            <div>|</div>
-
-            <div class="flex-container">
-                <i class="fa-solid fa-briefcase"></i>
-                 <div>
-                    <span>1+</span>
-                    <p>experience</p>
-                 </div>       
-            </div>
-
-        </div>
-
-<!-- skill-section -->
-    </section>
-
-    <section id="skills">
-            <center><h2>SKILLS</h2></center>
-            <div class="flex-container skills-container">
-                <div>
-                    <i class="fa-brands fa-html5"></i>
-                    <p>HTML</p>
-                </div>
-                
-                <div>
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <p>CSS</p>
-                </div>
-                
-                <div>
-                    <i class="fa-brands fa-js"></i>
-                    <p>Java-script</p>
-                </div>
-                
-                <div>
-                    <i class="fa-brands fa-square-github"></i>
-                    <p>Git hub</p>
-                </div>
-          
-                <div>
-                    <i class="fa-brands fa-figma"></i>
-                    <p>Figma</p>
-                </div>
-            </div>    
-    </section>
-
-    <!-- my recent work section -->
-
-    <section id="projects">
-        <center><h2>MY Recent Work</h2></center>
-
-        <div class="flex-container">
-          <!-- project-1 -->
-            <div class="project-card">
-                <div class="card-image">
-                    <img src="assests/profileimg.png" alt="profile-image">
-                </div>
-
-                <div class="card-icons">
-                    <a href="#"> <i class="fa-brands fa-square-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-chrome"></i></a>
-                </div>
-
-                <div class="card-text">
-                    <h4>Personal Portfolio </h4>
-                    <p>HTML | CSS</p>
-                </div>
-            </div>
-        
-               <!-- project-2 -->
-               <div class="project-card">
-                <div class="card-image">
-                    <img src="assests/profileimg.png" alt="profile-image">
-                </div>
-
-                <div class="card-icons">
-                    <a href="#"> <i class="fa-brands fa-square-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-chrome"></i></a>
-                </div>
-
-                <div class="card-text">
-                    <h4>Personal Portfolio </h4>
-                    <p>HTML | CSS</p>
-                </div>
-                
-            </div>
-
-                      <!-- project-3 -->
-                      <div class="project-card">
-                        <div class="card-image">
-                            <img src="assests/profileimg.png" alt="profile-image">
-                        </div>
-        
-                        <div class="card-icons">
-                            <a href="#"> <i class="fa-brands fa-square-github"></i></a>
-                            <a href="#"><i class="fa-brands fa-chrome"></i></a>
-                        </div>
-        
-                        <div class="card-text">
-                            <h4>Personal Portfolio </h4>
-                            <p>HTML | CSS</p>
-                        </div>
-                        
-                    </div>
-
-                              <!-- project-4 -->
-            <div class="project-card">
-                <div class="card-image">
-                    <img src="assests/profileimg.png" alt="profile-image">
-                </div>
-
-                <div class="card-icons">
-                    <a href="#"> <i class="fa-brands fa-square-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-chrome"></i></a>
-                </div>
-
-                <div class="card-text">
-                    <h4>Personal Portfolio </h4>
-                    <p>HTML | CSS</p>
-                </div>
-                
-            </div>
-
-                      <!-- project-5 -->
-                      <div class="project-card">
-                        <div class="card-image">
-                            <img src="assests/profileimg.png" alt="profile-image">
-                        </div>
-        
-                        <div class="card-icons">
-                            <a href="#"> <i class="fa-brands fa-square-github"></i></a>
-                            <a href="#"><i class="fa-brands fa-chrome"></i></a>
-                        </div>
-        
-                        <div class="card-text">
-                            <h4>Personal Portfolio </h4>
-                            <p>HTML | CSS</p>
-                        </div>
-                        
-                    </div>
-
-
-                              <!-- project-6 -->
-            <div class="project-card">
-                <div class="card-image">
-                    <img src="assests/profileimg.png" alt="profile-image">
-                </div>
-
-                <div class="card-icons">
-                    <a href="#"> <i class="fa-brands fa-square-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-chrome"></i></a>
-                </div>
-
-                <div class="card-text">
-                    <h4>Personal Portfolio </h4>
-                    <p>HTML | CSS</p>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <section>
-            <div class="about-me">
-                <div> <h1>About me</h1></div>
-
-
-                <div class="about-me-lower-section">
-                    <div><img src="assests/profileimg.png" height="200px" alt=""></div>
-
-                    <div>
-                        <p>
-                            My name is Shailesh, and I am a dedicated 
-                            software developer with 1 year of experience
-                             in crafting innovative solutions. I 
-                              in designing, coding, and maintaining high-quality
-                               software applications, ensuring they meet both 
-                               functional and user-friendly standards. 
-                               My expertise includes working with various 
-                               programming languages and frameworks, allowing 
-                               me to adapt to diverse project requirements. I 
-                               am passionate about problem-solving and committed
-                                to continuous learning to stay updated with
-                                 the latest technological advancements. Collaborative
-                                  and detail-oriented, I enjoy working with teams 
-                                  to deliver exceptional results. I strive 
-                                  to contribute meaningfully to every project I
-                                   undertake, driving growth and innovation.
-                        </p>
-
-                    </div>
-                    
-                </div>
-            </div>
-    </section>
-
-
-    <!-- get in touch section -->
-
-    <section id="contact">
-        <center><h4>Get in Touch</h4></center>
-
-        <div class="flex-container get-in-touch-container">
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-            <a href=" tel:0410474567"><i class="fa-solid fa-mobile"></i></a>
-        </div>
-
-        <center><h4>OR</h4></center>
-        
-        <div class="mail-container">
-            <a href="mailto:chhettrisailesh1@gmail.com"> 
-                <button class="download-btn">
-                    chhettrisailesh1@gmail.com <i class="fa-solid fa-paper-plane"></i>
+      </header>
+      <!-- hero section  -->
+      <section class="hero-section container" id="hero">
+        <div class="grid hero">
+          <div class="left flex">
+            <div>Hi I'm <span>Shailesh Gharti</span></div>
+            <div class="tag">Soft. Engineer</div>
+            <p>I love coding and teach others what I Know</p>
+            <div>
+              <a href="./assets/Shailesh.png" download>
+                <button>
+                  Download CV <i class="fa-solid fa-download"></i>
                 </button>
-            </a>
-        </div>
-    </section>
-
-    <footer>
-        <div class="flex-container footer-container">
-            <div>
-                <h6>Social Links</h6>
-                <ul>
-                    <li> <a href="#">Linkedin</a></li>
-                    <li> <a href="#">Github</a></li>
-                    <li> <a href="#">youtube</a></li>
-                    <li> <a href="#">facebook</a></li>
-                    <li> <a href="#">X</a></li>
-                </ul>
+              </a>
             </div>
-
-            <div>
-                <h6> Links</h6>
-                <ul>
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="#">About </a></li>
-                    <li> <a href="#">projects</a></li>
-                    <li> <a href="#">contact</a></li>
-                    <li> <a href="#">skills</a></li>
-                </ul>
-
-            </div>
+          </div>
+          <div class="right flex">
+            <img src="./assets/Shailesh.png" alt="Shailesh speaking" />
+          </div>
         </div>
+      </section>
 
-        <center>&copy; Copy rights all reserved. made by Shailesh Gharti</center>
-    </footer>
+      <!-- banner section  -->
+      <section class="flex banner container">
+        <div class="flex info-content">
+          <div class="flex-center icon-container">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div>
+            <span>IT</span>
+            <p>Graduation</p>
+          </div>
+        </div>
+        <div class="info-divider"></div>
 
-    <!-- go to top section -->
-     <div class="go-to-top">
-        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
-     </div>
+        <div class="flex info-content">
+          <div class="flex-center icon-container">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div>
+            <span>5+ Projects</span>
+            <p>Completed</p>
+          </div>
+        </div>
+        <div class="info-divider"></div>
 
+        <div class="flex info-content">
+          <div class="flex-center icon-container">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div>
+            <span>1+ Year</span>
+            <p>Experience</p>
+          </div>
+        </div>
+      </section>
 
-    
+      <!-- skills section  -->
+      <div class="skills" id="skills">
+        <h2 class="title">
+          <span>Skills</span>
+        </h2>
+        <div class="container flex skills-container">
+          <div>
+            <i class="fa-brands fa-html5" style="color: orange"></i>
+            <span>HTML</span>
+          </div>
+          <div>
+            <i class="fa-brands fa-css3-alt" style="color: blue"></i>
+            <span>CSS</span>
+          </div>
+          <div>
+            <i class="fa-brands fa-js" style="color: yellow"></i>
+            <span>Javascript</span>
+          </div>
+          <div>
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+          </div>
+          <div>
+            <i class="fa-brands fa-figma" style="color: purple"></i>
+            <span>Figma</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- project section  -->
+      <section class="projects container" id="projects">
+        <h2 class="title">
+          <span>My Projects</span>
+        </h2>
+
+        <div class="grid project-container">
+          <div class="project-card">
+            <div class="top">
+              <img src="./assets/p.png" alt="" width="100%" />
+            </div>
+            <div class="bottom container">
+              <div class="links">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+
+                <a href="">
+                  <i class="fa-brands fa-chrome"></i>
+                </a>
+              </div>
+              <h3>Personal portfolio</h3>
+              <p>Techstack: HTML, CSS, Javascript, React</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="top">
+              <img src="./assets/p.png" alt="" width="100%" />
+            </div>
+            <div class="bottom container">
+              <div class="links">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+
+                <a href="">
+                  <i class="fa-brands fa-chrome"></i>
+                </a>
+              </div>
+              <h3>Personal portfolio</h3>
+              <p>Techstack: HTML, CSS, Javascript, React</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="top">
+              <img src="./assets/p.png" alt="" width="100%" />
+            </div>
+            <div class="bottom container">
+              <div class="links">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+
+                <a href="">
+                  <i class="fa-brands fa-chrome"></i>
+                </a>
+              </div>
+              <h3>Personal portfolio</h3>
+              <p>Techstack: HTML, CSS, Javascript, React</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="top">
+              <img src="./assets/p.png" alt="" width="100%" />
+            </div>
+            <div class="bottom container">
+              <div class="links">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+
+                <a href="">
+                  <i class="fa-brands fa-chrome"></i>
+                </a>
+              </div>
+              <h3>Personal portfolio</h3>
+              <p>Techstack: HTML, CSS, Javascript, React</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about me section  -->
+      <section class="about" id="about">
+        <h2 class="title">
+          <span>About Me</span>
+        </h2>
+        <div class="container flex about-conent">
+          <div class="flex-center myImg">
+            <img src="./assets/Shailesh.png" alt="Shailesh's image" width="100%" />
+          </div>
+          <div class="my-bio container">
+            <h2>Shailesh Gharti</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+              voluptas tempore eveniet exercitationem voluptatibus consequuntur
+              magni ducimus quis deserunt maxime, voluptatum natus quaerat est
+              molestiae? Earum, sunt pariatur? Voluptatem, assumenda!
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequuntur nisi accusamus dignissimos voluptatum nam harum hic
+              assumenda ad nesciunt, inventore impedit et culpa maxime natus
+              placeat quidem quisquam corrupti sunt.
+            </p>
+            <p>Sydney, Australia</p>
+            <div>
+              <div class="tag">Interest</div>
+              <div class="flex">
+                <span>Coding</span>
+                <span>Football</span>
+                <span>Super Hero Movies</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section  -->
+      <section class="contact" id="contact">
+        <h2 class="title">
+          <span>Contact</span>
+        </h2>
+
+        <div class="flex social">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-solid fa-mobile"></i></a>
+        </div>
+        <h3>OR</h3>
+
+        <div class="flex-center">
+          <a href="" class="email-section flex-center">
+            <span>youremail@gmail.com</span>
+            <div class="email-icon flex-center">
+              <i class="fa-solid fa-paper-plane"></i>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Footer section  -->
+      <footer class="flex-center">
+        <div class="top flex">
+          <div class="links">
+            <h3>Links</h3>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="socials">
+            <h3>Social Links</h3>
+            <ul>
+              <li><a href="">LinkedIn</a></li>
+              <li><a href="">Github</a></li>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom">
+          &copy; Copy right all reserved 2024 || Made by me with 🚀
+        </div>
+      </footer>
+      <a href="#hero">
+        <div class="goUp flex-center">
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+      </a>
     </div>
-
-</body>
+  </body>
 </html>
